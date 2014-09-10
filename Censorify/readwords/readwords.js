@@ -1,7 +1,6 @@
-var censor = require("censorify");
-console.log(censor.getCensoredWords());
-console.log(censor.censor("Some very sad, bad, and mad words here"));
+var censor = require("./readwords/readwords.js");
+console.log(censor.getcensoredWords());
+console.log(censor.censor("some very sad, bad and mad text."));
 censor.addCensoredWord("gloomy");
-console.log(censor.getCensoredWords());
-console.log(censor.censor(("It is a very gloomy day outside")));
-console.log(censor.getCensoredWords());
+console.log(censor.getcensoredWords());
+console.log(censor.censor("A very gloomy day."));
