@@ -1,0 +1,19 @@
+{
+  "author" : "Mayra Gomez",
+  "name" : "censorify4382",
+  "version" : "1.0.3",
+  "description" : "Censors words out of text",
+  "main" : "censortext",
+  "repository" : {
+    "type" : "git",
+    "url": "git@github.com:mayragomez/censorify"
+  },
+  "keywords": [
+    "censor",
+    "words"
+    ],
+      
+  "dependencies" : {},
+  "engines" : { "node": "*" }
+}
+
